@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title> Site Responsivo</title>
+</head>
+
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <img src="assets/logo.png" alt="logo" class="nav__logo-img">
+                Salve o Planeta </a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#products" class="nav__link active-link">Products</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#Processos Ecológicos" class="nav__link active-link">Processos Ecológicos</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#blog" class="nav__link active-link">Blog</a>
+                    </li>
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class='bx bxs-x-circle'></i>
+                </div>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-grid-alt'></i>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="home grid" id="home">
+            <div class="home__container">
+                <div class="home__content container">
+                    <h1 class="home__title">
+                        Um planeta melhor a cada busca<span>.</span>
+                    </h1>
+                    <p class="home__description">
+                        Troque produtos comuns para salvar o mundo. </p>
+                    <div class="home__data">
+                        <div class="home__data-group">
+                            <h2 class="home__data-number">120K</h2>
+                            <h3 class="home__data-title">Fornecedor</h3>
+                            <p class="home__data-description">
+                                Variedade de produtos de qualidade de nossos fornecedores
+                            </p>
+                        </div>
+                        <div class="home__data-group">
+                            <h2 class="home__data-number">340+</h2>
+                            <h3 class="home__data-title">Produtos Exclusivos</h3>
+                            <p class="home__data-description">
+                                Aprovado pelo Ministério do Meio Ambiente
+                            </p>
+                        </div>
+                    </div>
+                    <a href="#specialty">
+                        <img src="assets/scroll.png" alt="" class="home__scroll">
+                    </a>
+                </div>
+            </div>
+
+            <img src="assets/lixeira.jpeg" alt="lixeira" class="home__img">
+        </section>
+        <div class="specialty section container" id="specialty">
+            <div class="specialty__container">
+                <div class="specialty__box">
+                    <h2 class="section__title">
+                        Este site oferece uma gama de oportunidades de inovação, aqui você encontra produtos de alta
+                        qualidade reciclados!
+                    </h2>
+                    <div>
+                        <a href="#" class="button specialty__button">Leia Mais</a>
+                    </div>
+                </div>
+                <div class="specialty__category">
+                    <div class="specialty__group spacialty__line">
+                        <img src="assets/planeta.png" alt="planeta" class="specialty__img">
+                        <h3 class="specialty__title"> Cuide do nosso planeta
+                        </h3>
+                        <p class="specialty__description">
+                            Desfrute do nosso planeta da melhor forma </p>
+                    </div>
+                    <div class="specialty__group spacialty__line">
+                        <img src="assets/Lixo reciclavel.png" alt="planeta" class="specialty__img">
+                        <h3 class="specialty__title">Coleta de lixo
+                        </h3>
+                        <p class="specialty__description">
+                            Aproveite os momentos e fique atento
+                        </p>
+                    </div>
+                    <div class="specialty__group">
+                        <img src="assets/ideia.png" alt="planeta" class="specialty__img">
+                        <h3 class="specialty__title">Final idea
+                        </h3>
+                        <p class="specialty__description">
+                            Use ideias revolucionárias
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="products section" id="products">
+            <div class="products__container container">
+                <h2 class="section__title">
+                    Escolha os mais variados produtos
+                </h2>
+                <div class="products__content grid">
+                    <article class="products__card Others">
+                        <div class="products__shape">
+                            <img src="assets/Caderno.png" alt="caderno" class="products__img">
+                        </div>
+                        <div class="products__data">
+                            <h2 class="products__price">$7</h2>
+                            <h3 class="products__name">Caderno Kraft</h3>
+                            <button class="button products__button">
+                                <i class='bx bx-shopping-bag'></i>
+                            </button>
+                        </div>
+                    </article>
+                    <article class="products__card Accessories">
+                        <div class="products__shape">
+                            <img src="assets/Chapeu.png" alt="chapeu" class="products__img">
+                        </div>
+
+                        <div class="products__data">
+                            <h2 class="products__price">$8</h2>
+                            <h3 class="products__name">Chapéu de Lona</h3>
+
+                            <button class="button products__button">
+                                <i class='bx bx-shopping-bag'></i>
+                            </button>
+                        </div>
+                    </article>
+                    <article class="products__card Accessories">
+                        <div class="products__shape">
+                            <img src="assets/Camisetas.png" alt="Camiseta" class="products__img">
+                        </div>
+
+                        <div class="products__data">
+                            <h2 class="products__price">$14</h2>
+                            <h3 class="products__name">Camisetas de Garrafa PET</h3>
+
+                            <button class="button products__button">
+                                <i class='bx bx-shopping-bag'></i>
+                            </button>
+                        </div>
+                    </article>
+                    <article class="products__card Household Items">
+                        <div class="products__shape">
+                            <img src="assets/Puff.png" alt="Puff" class="products__img">
+                        </div>
+
+                        <div class="products__data">
+                            <h2 class="products__price">$38</h2>
+                            <h3 class="products__name">Puff de Pneu</h3>
+
+                            <button class="button products__button">
+                                <i class='bx bx-shopping-bag'></i>
+                            </button>
+                        </div>
+                    </article>
+                    <article class="products__card Household Items">
+                        <div class="products__shape">
+                            <img src="assets/fio.png" alt="Fio" class="products__img">
+                        </div>
+
+                        <div class="products__data">
+                            <h2 class="products__price">$4</h2>
+                            <h3 class="products__name">Fio de Algodão</h3>
+
+                            <button class="button products__button">
+                                <i class='bx bx-shopping-bag'></i>
+                            </button>
+                        </div>
+                    </article>
+                    <article class="products__card Others">
+                        <div class="products__shape">
+                            <img src="assets/Papel.png" alt="Papel" class="products__img">
+                        </div>
+
+                        <div class="products__data">
+                            <h2 class="products__price">$5</h2>
+                            <h3 class="products__name">Papel para Impressão
+                            </h3>
+
+                            <button class="button products__button">
+                                <i class='bx bx-shopping-bag'></i>
+                            </button>
+                        </div>
+                    </article>
+                    <article class="products__card Household Items">
+                        <div class="products__shape">
+                            <img src="assets/garrafas.png" alt="garrafas" class="products__img">
+                        </div>
+
+                        <div class="products__data">
+                            <h2 class="products__price">$395</h2>
+                            <h3 class="products__name">Garrafas Vasos de Flor</h3>
+
+                            <button class="button products__button">
+                                <i class='bx bx-shopping-bag'></i>
+                            </button>
+                        </div>
+                    </article>
+                    <article class="products__card Household Items">
+                        <div class="products__shape">
+                            <img src="assets/Prateleira.png" alt="prateleira" class="products__img">
+                        </div>
+
+                        <div class="products__data">
+                            <h2 class="products__price">$13</h2>
+                            <h3 class="products__name">Prateleira de Pallets
+
+                            </h3>
+
+                            <button class="button products__button">
+                                <i class='bx bx-shopping-bag'></i>
+                            </button>
+                        </div>
+                    </article>
+                    <article class="products__card Household Items">
+                        <div class="products__shape">
+                            <img src="assets/lata.png" alt="lata" class="products__img">
+                        </div>
+
+                        <div class="products__data">
+                            <h2 class="products__price">$5</h2>
+                            <h3 class="products__name">Latinhas Organizadores
+
+                            </h3>
+
+                            <button class="button products__button">
+                                <i class='bx bx-shopping-bag'></i>
+                            </button>
+                        </div>
+                    </article>
+                    </article>
+                    <article class="products__card Household Items">
+                        <div class="products__shape">
+                            <img src="assets/vasos.png" alt="Vasos" class="products__img">
+                        </div>
+
+                        <div class="products__data">
+                            <h2 class="products__price">$24</h2>
+                            <h3 class="products__name">Vasos de Polietileno
+
+                            </h3>
+
+                            <button class="button products__button">
+                                <i class='bx bx-shopping-bag'></i>
+                            </button>
+                        </div>
+                    </article>
+                    <article class="products__card Others">
+                        <div class="products__shape">
+                            <img src="assets/Sacola.png" alt="Sacola" class="products__img">
+                        </div>
+
+                        <div class="products__data">
+                            <h2 class="products__price">$3</h2>
+                            <h3 class="products__name">Sacola Plástica
+
+                            </h3>
+
+                            <button class="button products__button">
+                                <i class='bx bx-shopping-bag'></i>
+                            </button>
+                        </div>
+                    </article>
+                </div>
+        </section>
+        <section class="quality section" id="premium">
+            <div class="quality__container container">
+                <h2 class="section__title">
+                    Processos Ecológicos
+                </h2>
+                <div class="quality__content grid">
+                    <img src="assets/reciclo.png" alt="reciclo">
+                </div>
+                <div class="quality__data">
+                    <h1 class="quality__title">Reciclagem</h1>
+                    <p class="Quality__description">
+                        A reciclagem é o processo de reaproveitamento de materiais descartados. Seu objetivo é
+                        reintroduzi-los na cadeia produtiva a fim de que ainda gerem valor e sejam reutilizados,
+                        reduzindo-se a produção de lixo, aumentando a preservação dos recursos naturais e melhorando a
+                        qualidade de vida das pessoas.
+                    </p>
+                    <div class="quality__buttons">
+                        <buttons class="button">
+                            Leia Mais
+                        </buttons>
+                        <a href="#" class="quality__button">
+                            Leia Mais
+                            <i class='bx bx-right-arrow-alt'></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="logo section">
+            <div class="logo__containter container grid">
+                <img src="assets/ecosia.png" alt="" class="logo__img">
+                <img src="assets/gov.png" alt="" class="logo__img">
+                <img src="assets/shopee.png" alt="" class="logo__img">
+                <img src="assets/mercado.png" alt="" class="logo__img">
+            </div>
+        </section>
+        <section class="blog section" id="blog">
+            <div class="blog__container container">
+                <div class="blog__content grid">
+                    <article class="blog__card">
+                        <div class="blog__image">
+                            <img src="assets/icon.jpeg" alt="" class="blog__img">
+
+                        </div>
+                        <div class="blog__data">
+                            <h2 class="blog__title">
+                                Notícias Globais
+                            </h2>
+                            <p class="section__title">
+                                Nesse Site também trata-se de notícias do cotidiano do nosso planeta<span>.</span>
+                            </p>
+                            
+                        </div>
+                    </article>
+                    <article class="blog__card">
+                        <div class="blog__image">
+                            <img src="assets/Noticia.png" alt="folha" class="blog__img">
+                            <a href="https://www.cnnbrasil.com.br/tudo-sobre/meio-ambiente/" class="blog__button">
+                                <i class='bx bx-right-arrow-alt'></i>
+                            </a>
+                        </div>
+
+                </div>
+                </article>
+            </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__container container">
+            <h1 class="footer__title">Recicle</h1>
+
+            <div class="footer__content grid">
+                <div class="footer__data">
+                    <p class="footer__description">
+                        Inscreva-se no portal!
+                    </p>
+
+                    <div class="footer__newslatter">
+                        <input type="email" placeholder="Your email address" class="footer__input">
+                        <button class="footer__button">
+                            <i class='bx bx-right-arrow-alt'></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="footer__data">
+                    <h2 class="footer_subtitle">Endereço</h2>
+                    <p class="footer_information">
+                        Av.Armando Giassetti, 577 Trevo Itu - Vila Hortolandia, Jundiaí - SP, 13214-525
+                    </p>
+                </div>
+
+                <div class="footer__data">
+                    <h2 class="footer_subtitle">Contact</h2>
+                    <p class="footer_information">
+                        +55 9 1654-7977 <br>
+                        adsbarbosa2002@gmail.com
+                    </p>
+                </div>
+
+                <div class="footer__data">
+                    <h2 class="footer_subtitle">Office</h2>
+                    <p class="footer_information">
+                        Monday - Saturday <br>
+                        9AM - 10PM
+                    </p>
+                </div>
+            </div>
+            <div class="footer__group">
+                <ul class="footer__social">
+                    <a href="" class="footer__social-link" target="_blank" class="footel__social-link">
+                        <i class='bx bxl-github'></i>
+                    </a>
+                    <a href="" class="footer__social-link" target="_blank" class="footel__social-link">
+                        <i class='bx bxl-instagram'></i>
+                    </a>
+                    <a href="" class="footer__social-link" target="_blank" class="footel__social-link">
+                        <i class='bx bxl-twitter'></i> </a>
+                </ul>
+                <span class="footer__copy">
+                    &#169; André Barbosa. All rights reserved
+                </span>
+            </div>
+        </div>
+    </footer>
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class='bx bx-up-arrow-alt'></i>
+    </a>
+    <script src="main.js"></script>
+</body>
+
+</html>
